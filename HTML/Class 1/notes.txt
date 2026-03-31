@@ -1,0 +1,50 @@
+Introduction to HTML?
+What is HTML?
+HyperText Markup Language. Use of tag
+to complete any structure.
+
+HTML is used to create a structure of a 
+webpage.
+
+Core Elements
+heading tag
+media tags
+list ......
+
+COding Enviornment: VS Code.
+
+Note:
+Always build a folder before working.
+Pros :
+--> It is easy to manage all the files.
+--> It is easy to share all the files.
+--> For live server , we need a folder.
+
+In html file is created using .html(extention)
+
+What is the structure of HTML?
+
+What is meta tag in HTML?
+meta tag means it is used to 
+--> SEO (Search Engine Optimisation)
+--> Encoding 
+--> For responsive design
+
+So anything inside <> is known as tag.
+
+Heading Tags : 6 types
+h1 
+h2
+h3
+h4
+h5
+h6
+
+Break tags : br & hr
+
+br tag is used for the next line of a code.
+hr tag is used to change line as well as draw horizontal line.
+
+HTML only understand single space.
+if i want to add more than one space, then?
+&nbsp;(non breaking space).
