@@ -1,0 +1,20 @@
+Media Tags : To show any multimedia(image/audio or video) on our webpage.
+img tag : src & alt
+audio  :src & controls
+video tag : src , controls & autoplay
+
+Note: Always save your assest near your html file.
+
+List are of 2 Types
+1. Ordered : 1,I,i,A,a
+    Ordered list is denoted by ol tag
+    ol --> li tag (list item)
+
+2. Unordered : square,circle,disc
+    Unordered List is denoted by ul tag
+
+Nested List
+    list
+        list
+            list    
+                list
