@@ -1,0 +1,11 @@
+What is Table tag?
+Combination of rows & columns.
+    table
+        tr(table row)
+            td/th(table data/table head)
+
+Cellspacing : Space b/w outer & inner border.
+Cellpadding : Space b/w Border & Content
+
+Column merge : colspan
+Row Merge : rowspan
