@@ -1,0 +1,6 @@
+What is form tag?
+To create the structure of any input feilds,any checkbo and multiple times.
+To create the registration,login , sign up page.
+
+form tag
+    label,input,select,option,textarea.........
