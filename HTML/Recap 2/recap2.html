@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table & Form Tag</title>
+</head>
+<body>
+    <!-- 
+        What is Table?
+        Table is a combination of rows & columns.
+        Where row is denoted by tr
+        & Column is denoted by td(table data/th(table head)
+
+        The space b/w outer cell & inner cell : cellspacing
+        the space b/w cell & content : cellpadding
+    -->
+
+    <table border="1" cellspacing="0" cellpadding="10">
+        <tr>
+            <th>Name</th>
+            <th>City</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>Hitesh</td>
+            <td>Mumbai</td>
+            <td>21</td>
+        </tr>
+        <tr>
+            <td>Nitin</td>
+            <td>Banglore</td>
+            <td>25</td>
+        </tr>
+        <tr>
+            <td>Lalit</td>
+            <td>Delhi</td>
+            <td>22</td>
+        </tr>
+    </table>
+
+    <!-- 
+        Row merge (vertically) : rowspan
+        Column merge (horizontally) : colspan
+    -->
+
+    <table border="1" cellpadding="10">
+        <tr>
+            <td colspan="2">Cell 1</td>
+            <td>Cell 2</td>
+            <td>Cell 3</td>
+        </tr>
+        <tr>
+            <td rowspan="3">Cell 4</td>
+            <td>Cell 5</td>
+            <td>Cell 6</td>
+            <td>Cell 7</td>
+        </tr>
+        <tr>
+            <td colspan="3">Cell 8</td>
+        </tr>
+        <tr>
+            <td>Cell 9</td>
+            <td colspan="2">Cell 10</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <table border="1" cellpadding="20">
+        <tr>
+            <td></td>
+            <td></td>
+            <td rowspan="2"></td>
+            <td rowspan="3"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td rowspan="2" colspan="2"></td>
+        </tr>
+        <tr>
+            <td rowspan="3"></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td colspan="3"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+
+    <!-- Linking in HTML : a tag -->
+    <a href="https://www.facebook.com">This is Facebook Link</a>
+    <br>
+    <a href="../RECAP/recap.html" target="_blank">This was previous class</a>
+    <hr>
+    <!-- Iframe tag -->
+    <iframe src="../RECAP/recap.html" width="600px" height="500px" frameborder="100"></iframe>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.022135066298!2d77.37577607409416!3d28.62909868423916!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cef60526c0929%3A0xe3abc75d65b999ff!2sCodeSquadz%20-%20IT%20Training%20by%20Manish%20Bhatia%20Sir!5e0!3m2!1sen!2sin!4v1775717363026!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/LhpZJwUboeI?si=nsmQyeANzJkCe0qp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</body>
+</html>
