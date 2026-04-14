@@ -1,0 +1,40 @@
+Chapter 1 : Introduction To CSS
+What is CSS CSS stands for Cascading Style Sheet, where we style our structure of a webpage.
+
+Css are of Three types :
+1. Inline : Here we write CSS in particular tag using style sttribute.
+
+2. Internal : Here we write whole styling within style tag.
+
+3. External : We have to create a new file for CSS.
+
+What are the Selectors of CSS?
+CSS have 4 selectors:
+i. universal is denoted by * , which means applied on whole body.
+
+ii. id is denoted by # , which is unique in our HTML document.
+
+iii. class is denoted by .(dot) , which is used for common styling.
+
+iv. tagname is denoted tagname itself , here if we will apply style on any tag it will applied on every time it is used.
+
+
+Chapter 2: Border , Box model , Font 
+Border :
+1st Phase : border-width,border-style,border-color
+2nd Phase : border-radius
+3rd Phase : Every side diffrent width/style/color
+
+Box Model : 
+i. Padding: It means space b/w border & content
+ii. Margin: It means space outside the border
+
+Font :
+Text color change : color 
+Text Size Increase : font-size
+Text Bold : font-weight
+Text Family : font-family
+Text ka Beech spacing : letter-spacing
+Text ko style Karna ho : font-style
+
+If I want import any font from google.
