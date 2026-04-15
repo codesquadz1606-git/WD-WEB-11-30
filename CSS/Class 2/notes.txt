@@ -1,0 +1,39 @@
+Chapter 3 : Diplays , Positions , Background , Hover
+
+Topic 1: What is Displays?
+In CSS Display are of 5 types but for now we will studey 3 types:
+--> Inline : It will convert Block tag to Inline tag.
+--> Block : It convert any inline tag to the block tag.
+--> Inline-Block : Jb Tkk content single line mae h , tab tkk woh inline tag h , as soon as content next line mae jaata h , then it is block tag.
+
+So here we will manipulate the display of any element.
+
+Topic 2: What is positions?
+Positions are of 5 types:
+i. Static (Default position)
+    In this position we cannot move the box.
+ii. Absolute
+    In absolute it moves from his parent position & leaves his space.
+iii. Relative
+    In relative it moves from his own position.
+iv. Fixed 
+    In this it fix at one position and leaves his space.
+v. Sticky
+    It will also fix at one place but will stick to his position.
+
+Topic 3: Background
+i. background-color
+ii. background-image
+iii. background-size
+iv. background-position
+v. background-repeat
+
+Topic 4: Hover : pseudo-class
+Hover means entering mouse on any object.
+class/id/tag:hover
+
+Topic 5: Transition
+i. transition-property
+ii. transition-timing-function
+iii. transition-delay
+iv. transition-duration

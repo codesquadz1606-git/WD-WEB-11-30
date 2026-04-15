@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .box{
+        width: 300px;
+        height: 300px;
+        background-color: red;
+        top: 40px;
+        left: 50px;
+
+        /* position: absolute; */
+        /* position: relative; */
+        /* position: fixed; */
+        /* position: sticky; */
+    }
+
+    .box1{
+        width: 300px;
+        height: 300px;
+        background-color: blue;
+    }
+    
+    .box2{
+        width: 300px;
+        height: 300px;
+        background-color: green;
+    }
+
+    .container{
+        width: 100%;
+        height: 400px;
+        background-image: url(./image.png);
+
+        background-repeat: no-repeat;
+        /* background-repeat: repeat-x; */
+        /* background-repeat: repeat-y; */
+
+        /* background-size: cover; */
+        /* background-size: contain; */
+        background-size: 700px;
+
+        background-position: center;
+
+        opacity: 0.1;
+    }
+
+
+    .square{
+        width: 200px;
+        height: 200px;
+        background-color: black;
+
+        /* transition-property: all;
+        transition-duration: 3s;
+        transition-timing-function: ease-in-out;
+        transition-delay: 2s; */
+
+        /* Shorthand */
+        transition: all 3s ease-in-out 2s;
+    }
+
+    .square:hover{
+        background-color: yellow;
+        border-radius: 50%;
+        position: relative;
+        left: 50px;
+    }
+
+
+</style>
+<body>
+    <!-- Convertd inline tag to block tag -->
+    <span style="background-color: red;display: block;">Hello</span>
+    <span style="background-color: blue;display: block;">Hii</span>
+    <hr>
+
+    <!-- Convertd block tag to inline tag -->
+    <p style="display: inline; background-color: yellow;">Hello</p>
+    <p  style="display: inline; background-color: yellow;">Hii</p>
+    <hr>
+
+    <!--  -->
+    <p style="background-color: green; display: inline-block;">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae iste totam distinctio molestiae impedit qui possimus neque, nihil, magni laboriosam ducimus vero earum eius.Tempora labore quae deserunt!
+    </p>
+
+    <hr>
+
+    <div class="box"></div>
+    <div class="box1"></div>
+    <div class="box2"></div>
+
+    <hr>
+
+    <div class="container">
+
+    </div>
+
+    <hr>
+
+    <div class="square">
+
+    </div>
+</body>
+</html>
