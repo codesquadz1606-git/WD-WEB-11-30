@@ -1,0 +1,5 @@
+What is flex?
+Flex : gap, justifyContent ,alignItems, flexProperties.
+
+flex-direction
+flex-wrap
