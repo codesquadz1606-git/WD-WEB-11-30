@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .box{
+        width: 100px;
+        height: 100px;
+        position: relative;
+        background-color: blue;
+        animation: movebox 6s ease-in-out infinite;
+    }
+
+    @keyframes movebox {
+        0%{
+            top: 0px;
+            left: 0px;
+            transform: rotate(0deg);
+        }
+        25%{
+            top: 200px;
+            left: 0px;
+            transform: rotate(90deg);
+        }
+        50%{
+            top: 200px;
+            left: 200px;
+            transform: rotate(180deg);
+        }
+        75%{
+            top: 0px;
+            left: 200px;
+            transform: rotate(270deg);
+        }
+        100%{
+            top: 0px;
+            left: 0px;
+            transform: rotate(360deg);
+        }
+    }
+
+
+    .carousel{
+        width: 90%;
+        height: 500px;
+        border: 2px solid black;
+
+        margin: auto;
+        border-radius: 30px;
+
+        animation: carousel 16s ease-in-out infinite alternate;
+    }
+
+    @keyframes carousel {
+        0%{
+            background-image:url(./assets/1.jpg);
+            background-size:cover;
+            background-position:center;    
+        }
+
+        30%{
+            background-image:url(./assets/2.jpg);
+            background-size:cover;
+            background-position:center;
+        }
+
+        60%{
+            background-image:url(./assets/3.jpg);
+            background-size:cover;
+            background-position:center;
+        }
+
+        100%{
+            background-image:url(./assets/4.jpg);
+            background-size:cover;
+            background-position:center;
+        }
+    }
+</style>
+<body>
+    <!-- <div class="box"></div> -->
+
+    <div class="carousel">
+
+    </div>
+</body>
+</html>
