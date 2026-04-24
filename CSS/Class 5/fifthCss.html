@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .container{
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+
+    .box{
+        width: 240px;
+        height: 400px;
+        border: 10px solid black;
+    }
+
+    @media (max-width:545px) {
+        .box{
+            width:90%;
+            border-radius: 40px;
+        }
+
+        .container{
+            gap:30px
+        }
+    }
+
+    .flex{
+        display: flex;
+        gap: 10px;
+    }
+
+    .flex-p{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    @media (min-width:1030px) {
+        .h-screen2{
+            display: none;
+        }
+    }
+
+    @media (max-width:1029px) {
+        .h-screen1{
+            display: none;
+        }
+    }
+</style>
+<body>
+    <!-- Responsive design -->
+
+    <!-- <div class="container">
+        <div class="box box-1"></div>
+        <div class="box box-2"></div>
+        <div class="box box-3"></div>
+        <div class="box box-4"></div>
+    </div> -->
+
+
+    <header>
+        <div class="h-screen1">
+            <div class="s1-content flex-p">
+                <h1>Loop Earplugs</h1>
+                <h1>Navbar</h1>
+                <div class="btns flex">
+                    <h1>Flag</h1>
+                    <h1>Account</h1>
+                    <h1>Cart</h1>
+                </div>
+            </div>
+        </div>
+        <div class="h-screen2">
+            <div class="content flex-p">
+                <h1>ham</h1>
+                <h1>loop earplugs</h1>
+                <div class="btns flex">
+                    <h1>Flag</h1>
+                    <h1>Account</h1>
+                    <h1>Cart</h1>
+                </div>
+            </div>
+        </div>
+    </header>
+</body>
+</html>

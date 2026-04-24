@@ -1,0 +1,79 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Ubuntu", sans-serif;
+    font-style: normal;
+}
+
+/* HEADER CSS */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.box {
+    width: 20px;
+    height: 20px;
+    background-color: blue;
+}
+
+.navigation ul {
+    display: flex;
+    gap: 20px;
+}
+
+.navigation ul li {
+    list-style: none;
+}
+
+.navigation ul li a {
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: black;
+}
+
+.navigation ul li a:hover {
+    color: blue;
+}
+
+/* MAIN CSS */
+main {
+    width: 100%;
+    height: 2000px;
+    background-color: beige;
+}
+
+/* FOOTER CSS */
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+}
+
+.left-footer {
+    width: 18%;
+}
+
+.right-footer {
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.right-footer .call,
+.write,
+.follow {
+    text-align: center;
+}

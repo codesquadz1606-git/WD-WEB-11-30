@@ -1,0 +1,120 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    color: white;
+}
+
+header{
+    border-bottom: 2px solid rgb(219, 131, 131);
+    padding-bottom: 20px;
+}
+
+.logo{
+    position: absolute;
+    top: 20px;
+    left: 30px;
+}
+
+.navigation{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.navigation ul li{
+    display: inline;
+    font-size: 1.3rem;
+    margin-right: 20px;
+}
+
+.buttons{
+    position: absolute;
+    top: 20px;
+    right: 30px;
+}
+
+.btn{
+    border: none;
+    border-radius: 30px;
+    font-weight: bolder;
+}
+
+.btn1{
+    background-color: blue;
+    padding: 12px 20px;
+    transition: all 0.1s ease-in-out;
+    margin-right: 10px;
+}
+
+.btn1:hover{
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 10px 20px;
+}
+
+.btn2{
+    border: 2px solid white;
+    padding: 10px 20px;
+    transition: all 0.1s ease-in-out;
+}
+
+.btn2:hover{
+    border: none;
+    background-color: blue;
+    padding: 12px 20px;
+}
+
+.left{
+    width: 50%;
+    height: 514px;
+    display: inline;
+    float: left;
+}
+
+.content{
+    margin-left: 30px;
+    margin-top: 60px;
+}
+
+input,.submit{
+    width: 80%;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+input{
+    background-color: rgb(81, 80, 80);
+}
+
+input::placeholder{
+    color: white;
+    padding-left: 20px;
+}
+
+.submit{
+    background-color: blue;
+    font-weight: bolder;
+}
+
+.right{
+    width: 50%;
+    height: 514px;
+    display: inline;
+    float: right;
+}
+
+.image-box{
+    width: 450px;
+    height: 400px;
+    margin-top: 50px;
+    margin-left: 50px;
+    border: 10px solid rgb(31, 149, 196);
+
+    background-image: url(./image.png);
+    background-size: cover;
+    background-position: center;
+}
