@@ -1,0 +1,8 @@
+Javascript.
+
+Types of JS:
+i. Inline JS : We right js in particular tag.
+ii. Internal JS : We write our JS in our HTML file itself.
+iii. External JS : We have to create an additional file.
+
+How to write in JS?
