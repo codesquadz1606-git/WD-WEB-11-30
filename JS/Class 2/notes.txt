@@ -1,0 +1,8 @@
+What is Operators?
+Operation b/w two or more operands is known as Operators.
+1. Arthmetic : +,-,*,/,%,**
+2. Relational : <,>,<=,>=,!=,==,===(js)
+3. Logical : && , || , !
+4. Unary : ++ , --
+5. Assignment : =,+=,-=,*=,/=,%=,**=
+6. Ternary : Based on condition
