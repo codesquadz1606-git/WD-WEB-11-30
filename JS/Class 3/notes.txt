@@ -1,0 +1,29 @@
+Conditional Statements
+1. if-else
+    if is the staring Statements, here we can use if multiple times.
+
+    else is the ending statement , else is used single time.
+
+    Syntax
+    if(condition){code}
+    else{code}
+
+    What is Template Literal?
+    `statement ${variable/operation}`
+
+Take three numbers as input and find the greatest number.
+
+2. Switch-Case
+    Here their is one switch and multiple cases.
+
+    Java : Banking , Fintech
+    Da / Ds : Analysis
+    MERN : Startups
+    Dot Net : Healthcare
+
+Math Functions:
+    i. Pi
+    ii. abs()
+    iii. random
+    iv. ceil
+    v. floor
