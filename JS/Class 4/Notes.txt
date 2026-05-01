@@ -1,0 +1,27 @@
+COntrol-Flow Statement : Loop
+Iteration on a condition until it turns out to be false.
+3 types of loops :
+i. for
+    syntax
+    for(start;stop;step){code}
+    
+ii. while
+    syntax
+    start;
+    while(stop){
+        code
+        step;
+    }
+
+iii. do-while
+    syntax
+    start;
+    do{
+        code
+        step;
+    }while(condition);
+
+String
+Any charcter inside the "" is a string, It is based on zero based indexing.
+
+It start from zero  &  goest to length - 1.
