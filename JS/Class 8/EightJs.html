@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .display-none{
+        display: none;
+    }
+</style>
+<body>
+    
+    <!-- <p class="one">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, hic iure. Omnis, quisquam alias neque quod dolor pariatur non impedit temporibus ab quia optio obcaecati culpa sed, reiciendis sit delectus minus quasi, est modi. Possimus deleniti tenetur nisi explicabo non maiores accusantium quibusdam sint nulla expedita repudiandae sapiente a necessitatibus debitis, nesciunt voluptas repellat sed corrupti provident. Nisi explicabo saepe sunt hic, laboriosam, sit quod illum enim, officiis molestiae veniam temporibus reprehenderit? Culpa, eveniet exercitationem? Magni magnam voluptatum dolorem dolorum accusamus. Nobis nam quod cum aperiam, ipsum, omnis id perspiciatis harum eum itaque excepturi dignissimos atque pariatur! Omnis, saepe assumenda.
+    </p>
+
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus vitae veritatis facilis possimus inventore. Eveniet soluta voluptatum necessitatibus aut, odio facilis repellat ad aspernatur quam vel? Nihil officiis magnam suscipit exercitationem quod. Laudantium veritatis blanditiis expedita modi minima officiis, vitae voluptas vero labore id vel aliquam suscipit debitis iusto ullam excepturi illum fugit numquam voluptate at rem. Similique rerum quas autem fugit perferendis voluptatem ipsum ab delectus. Laborum, autem eius distinctio assumenda atque temporibus beatae modi laboriosam excepturi voluptatibus. Facilis illum beatae sit at aspernatur vel non minima doloremque libero impedit deleniti cumque, dicta similique veritatis ad! Accusamus, suscipit nemo facilis eaque culpa quas similique, harum porro, cupiditate debitis perferendis eos quam totam a! Quaerat beatae harum atque veritatis dolorum quo autem facilis obcaecati? Vitae ut dicta ipsum exercitationem? Laborum totam ut asperiores aperiam? Nisi ducimus eius totam, accusantium aperiam iure cum, asperiores reprehenderit ipsam nihil eligendi at dolores soluta, praesentium minima perferendis sequi quo impedit quidem! Atque doloribus magni, non tempore nemo voluptate aliquam corrupti molestiae veritatis iusto ad repellendus voluptas fugit laudantium dolor asperiores quas temporibus error earum beatae accusamus sunt dolore ullam voluptatum. Nemo dolor cumque fugiat. Quia sint perferendis deleniti fugiat nihil impedit repellendus, odit distinctio?
+    </p> -->
+
+    <!-- <p class="para">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae accusantium facilis repudiandae commodi, perferendis cumque? Aspernatur saepe a in sapiente voluptates omnis aliquam est vel magni error commodi sint, dignissimos libero nostrum, excepturi, mollitia asperiores consectetur inventore. Officiis corporis tempora maiores, magnam vitae eaque fuga quasi. Officia, sed incidunt exercitationem quia odio minima magni commodi ea aliquid atque autem reiciendis provident harum laboriosam impedit nihil, repellendus rem reprehenderit, corporis perspiciatis pariatur inventore dolorem. Rem tempora libero, commodi nulla reiciendis modi iste! Culpa iusto ullam suscipit sit eveniet deserunt ad quae possimus laudantium! Perferendis autem eveniet modi, molestiae mollitia non qui in fugiat itaque architecto tempora animi ipsa consectetur blanditiis. Dicta non, est veritatis quidem iusto sequi quos nobis error vitae eius! Vitae, tempore saepe exercitationem, delectus ex beatae excepturi possimus esse provident nemo repellendus fugit voluptate. Cumque modi, vitae labore nobis iste repudiandae ea dolores omnis vel nisi velit placeat minima, perspiciatis autem consectetur eaque magnam aspernatur veniam fugit ullam accusamus rem officia animi! Natus, magnam? Ipsa optio voluptates reiciendis cumque quasi dolor voluptatum dolorem dolore ut odit eum natus aliquid tempora obcaecati similique amet ratione sit, explicabo rerum, delectus sapiente! Corporis, quaerat error doloribus voluptate excepturi facere ullam esse!
+    </p> -->
+
+    <!-- <button>Hide Text</button> -->
+
+    <!-- <input type="text" placeholder="Enter the name">
+    <button>
+        Submit
+    </button> -->
+
+
+    <form action="">
+        <label for="">First Name :</label>
+        <input type="text" class="inputFirstName"><br>
+        <label for="">Last Name :</label>
+        <input type="text" class="inputLastName"><br>
+        <label for="">City Name :</label>
+        <input type="text" class="inputCityName"><br>
+        <input type="submit">
+    </form>
+    <script>
+        // let h1=document.createElement("h1");
+        // h1.innerText="Ayush"
+
+        // let body=document.querySelector("body")
+        // let one=document.querySelector(".one")
+        // body.append(h1) // add at the end 
+        // body.prepend(h1) // add at the start 
+
+        // one.insertAdjacentElement("afterbegin",h1)
+        // one.insertAdjacentElement("afterend",h1)
+        // one.insertAdjacentElement("beforeend",h1)
+        // one.insertAdjacentElement("beforebegin",h1)
+
+        // let para=document.querySelector(".para")
+        // let btn=document.querySelector("button")
+
+        // function handleClick(e){
+        //     para.classList.toggle("display-none")
+
+        //     para.classList.contains("display-none") ? btn.innerText="Show Text" : btn.innerText="Hide Text"
+        // }
+        // btn.addEventListener("click",handleClick)
+
+        // let input=document.querySelector("input")
+
+        // document.querySelector("button").addEventListener("change",()=>{
+        //     console.dir(input.target)
+        //     // console.log(input.value)
+        // })
+
+        // input.addEventListener("change",(e)=>{
+        //     console.log(e.target.value)
+        // })
+
+        let form=document.querySelector("form")
+        let fname=document.querySelector(".inputFirstName")
+        let lname=document.querySelector(".inputLastName")
+        let cname=document.querySelector(".inputCityName")
+
+        form.addEventListener("submit",(e)=>{
+            let empData={};
+            e.preventDefault()
+
+            empData.fname=fname.value
+            empData.lname=lname.value
+            empData.cname=cname.value
+            console.log(empData)
+        })
+    </script>
+</body>
+</html>
