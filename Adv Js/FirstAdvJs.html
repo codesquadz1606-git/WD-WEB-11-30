@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .box {
+        width: 300px;
+        height: 300px;
+        border: 10px solid black;
+    }
+</style>
+
+<body>
+
+    <div class="box"></div>
+
+
+    <script>
+        // function one(){
+        //     return 1;
+        // }
+        // function two(){
+        //     return one()+one()
+        // }
+        // function three(){
+        //     return two()+one()
+        // }
+
+        // three()
+
+
+        // setTimeout : It means executing after some delay.
+
+        // syntax : setTimeout(callback,delay)
+
+        // ASYNCHRONOUS CODE
+        // console.log("Hello")
+
+        // setTimeout(()=>{
+        //     console.log("Hello Everyone")
+        // },3000) // this asynchronous code is handled by the browser.
+
+        // console.log("Hello1")
+
+        // SYNCHRONOUS CODE
+        // console.log("Hello")
+        // console.log("Hello1")
+        // console.log("Hello2")
+        // console.log("Hello3")
+
+        // setInterval : It will run after some time interval.
+
+        // let id=setInterval(()=>{
+        //     console.log("hello")
+        // },3000)
+
+        // setTimeout(()=>{
+        //     clearInterval(id)
+        // },15000)
+
+        // let box=document.querySelector(".box")
+
+        // function colorChange(color,delay,nextColor){
+        //     setTimeout(()=>{
+        //         if(nextColor) nextColor()
+        //         box.style.backgroundColor=color
+        //     },delay)
+        // }
+
+        // colorChange("blue",2000,()=>{
+        //     colorChange("yellow",2000,()=>{
+        //         colorChange("green",2000)
+        //     })
+        // })
+
+
+        // data save --> internet speed (>=5 then it is saved) otherwise not saved.
+
+        function dataSave(data, success, failure) {
+            let internetSpeed = Math.ceil(Math.random() * 10)
+
+            if (internetSpeed >= 5) {
+                success(internetSpeed)
+            }
+
+            else{
+                failure(internetSpeed)
+            }
+        }
+
+        dataSave("Ronit",(s)=>{
+            console.log("Data 1 Saved",s)
+            dataSave("Sumit",(s)=>{
+                console.log("Data 2 Saved",s)
+            },(s)=>{
+                console.log("Faile to Save Data 2",s)
+            })
+        },(s)=>{
+            console.log("Failed to Save Data 1",s)
+        })
+    </script>
+</body>
+
+</html>

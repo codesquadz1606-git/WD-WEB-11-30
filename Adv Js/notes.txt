@@ -1,0 +1,16 @@
+What is Call Stack?
+Measuring the call of the code and their execution.
+
+Diffrence b/w Asynchronous & Synchronous?
+Asynchrnous means their is some wait time in the code.
+Data fetch(server --> UI) , setTimeout , setInterval
+
+Synchronous means executing code line by line.
+
+Is JS single threaded?
+Js is Single threaded , Because Js has architure of EVENT LOOP which handles the asynchronous & non blocking outputs thats why it can handle all the operations as Multi Threading.
+
+What is callback hell?
+A callback hell means callback inside anthor callback and the inside anthor callback , so this seems like a loop of callback
+
+What is Promises?
